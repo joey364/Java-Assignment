@@ -54,6 +54,12 @@ public class Teller {
         Teller teller = new Teller();
 
         System.out.println("Enter what you want");
+        System.out.println("[1] -> Get gum");
+        System.out.println("[2] -> Get chocolate");
+        System.out.println("[3] -> Get popcorn");
+        System.out.println("[4] -> Get juice");
+        System.out.println("[5] -> Get number of items sold");
+        System.out.println("[6] -> Exit the program ");
 
         while (keyIn.hasNextInt()) {
             teller.setOption(keyIn.nextInt());
@@ -87,6 +93,7 @@ public class Teller {
                 System.exit(0);
                 break;
             default:
+                System.out.println("");
                 break;
             }
 
