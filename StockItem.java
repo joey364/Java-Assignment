@@ -39,11 +39,11 @@ public class StockItem {
         return this.totalStock;
     }
 
-    public void addToTotalStock(int newStocks) {
+    public void increaseTotalStock(int newStocks) {
         this.totalStock += newStocks;
     }
 
-    public Double getStockValue() {
+    public Double calculateTotalPrice() {
         return this.totalStock * this.price;
     }
 
