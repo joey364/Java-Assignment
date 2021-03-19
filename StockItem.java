@@ -39,8 +39,12 @@ public class StockItem {
         return this.totalStock;
     }
 
-    public void setTotalStock(int totalStock) {
-        this.totalStock += totalStock;
+    public void addToTotalStock(int newStocks) {
+        this.totalStock += newStocks;
+    }
+
+    public Double getStockValue() {
+        return this.totalStock * this.price;
     }
 
 }
