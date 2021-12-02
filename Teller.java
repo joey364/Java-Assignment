@@ -7,14 +7,26 @@ public class Teller {
     int numberOfJuiceSold;
     int numberOfPopcornSold;
 
+    
+    /** 
+     * @return int
+     */
     public int getOption() {
         return this.option;
     }
 
+    
+    /** 
+     * @param option
+     */
     public void setOption(int option) {
         this.option = option;
     }
 
+    
+    /** 
+     * @return int
+     */
     public int getNumberOfGumsSold() {
         return this.numberOfGumsSold;
     }
@@ -23,6 +35,10 @@ public class Teller {
         this.numberOfGumsSold++;
     }
 
+    
+    /** 
+     * @return int
+     */
     public int getNumberOfChocolateSold() {
         return this.numberOfChocolateSold;
     }
@@ -31,6 +47,10 @@ public class Teller {
         this.numberOfChocolateSold++;
     }
 
+    
+    /** 
+     * @return int
+     */
     public int getNumberOfJuiceSold() {
         return this.numberOfJuiceSold;
     }
@@ -39,6 +59,10 @@ public class Teller {
         this.numberOfJuiceSold++;
     }
 
+    
+    /** 
+     * @return int
+     */
     public int getNumberOfPopcornSold() {
         return this.numberOfPopcornSold;
     }
@@ -47,6 +71,10 @@ public class Teller {
         this.numberOfPopcornSold++;
     }
 
+    
+    /** 
+     * @param args
+     */
     public static void main(String[] args) {
 
         Scanner keyIn = new Scanner(System.in);
